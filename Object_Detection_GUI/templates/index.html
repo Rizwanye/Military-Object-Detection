@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Military Detector</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .background-container {
+            background-image: url("/static/home.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 200px;
+        }
+
+        header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    top: 0;
+    width: auto;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+header nav {
+    margin-right: 100px;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+header ul li {
+    margin-left: 10px;
+    ;
+}
+
+header ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            margin-top: 100px;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            margin-top: 20px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Military Detector</h1>
+        <nav>
+            <ul>
+                <li><a href=/>Home</a></li>
+                <li><a href=page2>Detect Objects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="background-container">
+        <div class="content">
+            <h1>Welcome to Aerial Drone Footage Object Detection and Classifier</h1>
+            <p>Scan and detect moving vehicles from Supply Trucks, Soldiers to Tanks!</p>
+            <p align="center"><a href=page2><button class="grey" style="height:75px;width:auto">Click Here To Start Drone Analysis!</button></a></p>
+        </div>
+    </div>
+</body>
+</html>

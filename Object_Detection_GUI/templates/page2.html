@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page 2</title>
+    <style>
+        body {
+            background-color: #e6e5ca;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    top: 0;
+    width: auto;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.header nav {
+    margin-right: 100px;
+}
+
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header ul li {
+    margin-left: 10px;
+    ;
+}
+
+.header ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+
+        .content {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        .text-content {
+            width: 50%;
+            font-size: 20px;
+        }
+
+        .right-content {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        form {
+            align-self: flex-start;
+        }
+
+        #my-video {
+            width: 640px;
+            height: 480px;
+        }
+
+        .waiting-box {
+            width: 640px;
+            height: 480px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .waiting-text {
+            font-size: 20px;
+            color: #888;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Military Detector</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="page2">Detect Objects</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="content">
+        <div class="text-content">
+            <h1>Welcome To Drone Analysis!</h1>
+            <p class="how-to-text">How to upload and analyze a drone video:</p>
+            <ol>
+                <li>Click the "Choose File" button below.</li>
+                <li>Select the drone video file you want to analyze.</li>
+                <li>Click the "Analyze" button to start the analysis.</li>
+            </ol>
+
+            <form enctype="multipart/form-data" method="POST" action="/analyze">
+                <input type="file" name="file" accept="video/*">
+                <button type="submit">Analyze</button>
+            </form>
+        </div>
+
+        <div class="right-content">
+            {% if detected_file %}
+            <video id="my-video" controls>
+                <source src="{{ url_for('display_video', filename=detected_file) }}" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+            {% else %}
+            <div class="waiting-box">
+                <p class="waiting-text">Waiting for video upload...</p>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
