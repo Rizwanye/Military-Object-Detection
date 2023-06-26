@@ -4,5 +4,8 @@ This project utilised Python programming, specifically the yolov5 package to det
 A presentation of the entire project can be summarised below. 
 
 <p align="center">
-  <img src="https://github.com/Rizwanye/Military-Object-Detection/raw/main/youtube_thumbnail.jpg" width="50%" alt="Alt Text">
+  <a href="https://www.youtube.com/watch?v=hLSiAEOvlas&t=1s&ab_channel=RizwanYe">
+    <img src="https://github.com/Rizwanye/Military-Object-Detection/raw/main/youtube_thumbnail.jpg" width="50%" alt="Alt Text">
+  </a>
 </p>
+
