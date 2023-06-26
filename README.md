@@ -9,3 +9,5 @@ A presentation of the entire project can be summarised in the youtube video belo
   </a>
 </p>
 
+# Output of sample object classifications
+<img src="https://github.com/Rizwanye/Military-Object-Detection/blob/main/example1.gif" width="456" />
