@@ -21,6 +21,7 @@ Below are sample images of the classified objects from the output of this projec
 
 # Flask GUI built for the program
 The final project was finalised together using flask, the backend used yolov5 object classifcation with yolo5x for its backbone. In the website, users can upload an infra-red video (drone video) and the program will classify and maintain bounding boxes on these objects.
+<br>
 <a href="https://github.com/Rizwanye/Military-Object-Detection">
   <img src="https://github.com/Rizwanye/rizwanye/blob/main/project1.gif" width="456" />
 </a>
