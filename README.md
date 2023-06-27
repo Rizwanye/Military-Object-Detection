@@ -9,6 +9,16 @@ A presentation of the entire project can be summarised in the youtube video belo
   <a href="https://www.youtube.com/watch?v=hLSiAEOvlas&t=1s&ab_channel=RizwanYe">
     <img src="https://github.com/Rizwanye/Military-Object-Detection/raw/main/youtube_thumbnail.jpg" width="50%" alt="Alt Text">
   </a>
+  <br>
+  Power Point Presentation
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=I2R6yuKW-l4&ab_channel=RizwanYe">
+    <img src="https://github.com/Rizwanye/Military-Object-Detection/raw/main/youtube_thumbnail_2.jpg" width="50%" alt="Alt Text">
+  </a>
+  <br>
+  Video Trailer Presentation with Demonstration
 </p>
 
 # Output of sample object classifications
