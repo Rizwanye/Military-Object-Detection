@@ -27,7 +27,7 @@ The final project was finalised together using flask, the backend used yolov5 ob
   </a>
 </div>
 
-# Error handling added on GUI
+## Error handling added on GUI
 
 1. Error handling for missing file upload:
 The code checks if the 'file' key is not present in request.files and returns the string "No file uploaded". This handles the case when the user submits the form without selecting any file.
