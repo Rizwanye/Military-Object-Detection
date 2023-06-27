@@ -12,6 +12,7 @@ A presentation of the entire project can be summarised in the youtube video belo
 </p>
 
 # Output of sample object classifications
+Below are sample images of the classified objects from the output of this project. Please allow 1 - 2 minutes for the gifs to load as it is quite large. 
 <div style="display: flex;">
   <img src="https://github.com/Rizwanye/Military-Object-Detection/blob/main/example1.gif" width="256" style="margin-right: 10px;" />
   <img src="https://github.com/Rizwanye/Military-Object-Detection/blob/main/example2.gif" width="256" style="margin-right: 10px;" />
@@ -19,6 +20,7 @@ A presentation of the entire project can be summarised in the youtube video belo
 </div>
 
 # Flask GUI built for the program
+The final project was finalised together using flask, the backend used yolov5 object classifcation with yolo5x for its backbone. In the website, users can upload an infra-red video (drone video) and the program will classify and maintain bounding boxes on these objects.
 <a href="https://github.com/Rizwanye/Military-Object-Detection">
   <img src="https://github.com/Rizwanye/rizwanye/blob/main/project1.gif" width="456" />
 </a>
