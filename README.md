@@ -27,3 +27,13 @@ The final project was finalised together using flask, the backend used yolov5 ob
   </a>
 </div>
 
+# Error handling added on GUI
+
+1. Error handling for missing file upload:
+The code checks if the 'file' key is not present in request.files and returns the string "No file uploaded". This handles the case when the user submits the form without selecting any file.
+
+2. Error handling for empty file selection:
+The code checks if the filename of the uploaded file is empty and returns the string "No file selected". This handles the case when the user selects a file but its filename is empty.
+
+3. Error handling for missing detection results:
+The code checks if the list of exp_dirs is empty, indicating that no detection results were found. It returns the string "No detection results found, check the program output, most likely missing packages/modules." This handles the case when the object detection process does not generate any results.
