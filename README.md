@@ -4,22 +4,18 @@ This project utilised Python programming, specifically the yolov5 package to det
 In this github it has the google collab file used to train the object detection program and the flask gui built for the application.
 
 A presentation of the entire project can be summarised in the youtube video below. 
+The first video is a PowerPoint presentation, the second video is a trailer + code demonstration of the project. 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=hLSiAEOvlas&t=1s&ab_channel=RizwanYe" style="display: inline-block;">
+    <img src="https://github.com/Rizwanye/Military-Object-Detection/raw/main/youtube_thumbnail.jpg" width="45%" alt="Alt Text">
+  </a>
+  <a href="https://www.youtube.com/watch?v=I2R6yuKW-l4&ab_channel=RizwanYe" style="display: inline-block;">
+    <img src="https://github.com/Rizwanye/Military-Object-Detection/raw/main/youtube_thumbnail_2.jpg" width="45%" alt="Alt Text">
+  </a>
+</p>
 
-<div style="display: flex;">
-  <div style="margin-right: 10px;">
-    <a href="https://www.youtube.com/watch?v=hLSiAEOvlas&t=1s&ab_channel=RizwanYe">
-      <img src="https://github.com/Rizwanye/Military-Object-Detection/raw/main/youtube_thumbnail.jpg" width="50%" alt="Alt Text">
-    </a>
-    <p style="text-align: center;">Power Point Presentation</p>
-  </div>
-  
-  <div style="display: flex;">
-    <a href="https://www.youtube.com/watch?v=I2R6yuKW-l4&ab_channel=RizwanYe">
-      <img src="https://github.com/Rizwanye/Military-Object-Detection/raw/main/youtube_thumbnail_2.jpg" width="50%" alt="Alt Text">
-    </a>
-    <p style="text-align: center;">Video Trailer Presentation with Demonstration</p>
 
-</div>
+
 
 
 
