@@ -5,21 +5,22 @@ In this github it has the google collab file used to train the object detection 
 
 A presentation of the entire project can be summarised in the youtube video below. 
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=hLSiAEOvlas&t=1s&ab_channel=RizwanYe">
-    <img src="https://github.com/Rizwanye/Military-Object-Detection/raw/main/youtube_thumbnail.jpg" width="50%" alt="Alt Text">
-  </a>
-  <br>
-  Power Point Presentation
-</p>
+<div style="display: flex; justify-content: center;">
+  <div style="margin-right: 10px;">
+    <a href="https://www.youtube.com/watch?v=hLSiAEOvlas&t=1s&ab_channel=RizwanYe">
+      <img src="https://github.com/Rizwanye/Military-Object-Detection/raw/main/youtube_thumbnail.jpg" width="50%" alt="Alt Text">
+    </a>
+    <p style="text-align: center;">Power Point Presentation</p>
+  </div>
+  
+  <div style="margin-left: 10px;">
+    <a href="https://www.youtube.com/watch?v=I2R6yuKW-l4&ab_channel=RizwanYe">
+      <img src="https://github.com/Rizwanye/Military-Object-Detection/raw/main/youtube_thumbnail_2.jpg" width="50%" alt="Alt Text">
+    </a>
+    <p style="text-align: center;">Video Trailer Presentation with Demonstration</p>
+  </div>
+</div>
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=I2R6yuKW-l4&ab_channel=RizwanYe">
-    <img src="https://github.com/Rizwanye/Military-Object-Detection/raw/main/youtube_thumbnail_2.jpg" width="50%" alt="Alt Text">
-  </a>
-  <br>
-  Video Trailer Presentation with Demonstration
-</p>
 
 # Output of sample object classifications
 Below are sample images of the classified objects from the output of this project. Please allow 1 - 2 minutes for the gifs to load as it is quite large. 
