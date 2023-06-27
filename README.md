@@ -5,21 +5,22 @@ In this github it has the google collab file used to train the object detection 
 
 A presentation of the entire project can be summarised in the youtube video below. 
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex;">
   <div style="margin-right: 10px;">
     <a href="https://www.youtube.com/watch?v=hLSiAEOvlas&t=1s&ab_channel=RizwanYe">
-      <img src="https://github.com/Rizwanye/Military-Object-Detection/raw/main/youtube_thumbnail.jpg" width="25%" alt="Alt Text">
+      <img src="https://github.com/Rizwanye/Military-Object-Detection/raw/main/youtube_thumbnail.jpg" width="50%" alt="Alt Text">
     </a>
     <p style="text-align: center;">Power Point Presentation</p>
   </div>
   
-  <div style="margin-left: 10px;">
+  <div style="display: flex;">
     <a href="https://www.youtube.com/watch?v=I2R6yuKW-l4&ab_channel=RizwanYe">
-      <img src="https://github.com/Rizwanye/Military-Object-Detection/raw/main/youtube_thumbnail_2.jpg" width="25%" alt="Alt Text">
+      <img src="https://github.com/Rizwanye/Military-Object-Detection/raw/main/youtube_thumbnail_2.jpg" width="50%" alt="Alt Text">
     </a>
     <p style="text-align: center;">Video Trailer Presentation with Demonstration</p>
-  </div>
+
 </div>
+
 
 
 # Output of sample object classifications
